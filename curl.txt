@@ -1,0 +1,15 @@
+curl 'https://www.valueresearchonline.com/downloads/amfi-performance-xls/?source_url=%2Famfi%2Ffund-performance-data%2F%3Fend-type%3D1%26primary-category%3DSEQ%26category%3DSEQ_LC%26amc%3DALL%26nav-date%3D27-Oct-2023' \
+  -H 'authority: www.valueresearchonline.com' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'accept-language: en-IN,en-GB;q=0.9,en;q=0.8,en-US;q=0.7' \
+  -H 'referer: https://www.valueresearchonline.com/amfi/fund-performance' \
+  -H 'sec-ch-ua: "Chromium";v="118", "Microsoft Edge";v="118", "Not=A?Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: iframe' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76' \
+  --compressed --output test.xls
